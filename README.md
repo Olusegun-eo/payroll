@@ -26,3 +26,7 @@ Make sure you have the appropriate data in your database, including employees, c
 Note: Ensure that the application is running on the specified port (8085 in the example) and adjust the URL accordingly if you are using a different port or host.
 
 Other things to be implemented is Access Control, and a need to further enhance it based on your specific requirements for future purposes
+
+
+
+Ensure you have JRE(or Java 17 SDKs) installed on your laptop. You can use any of your desired IDE for this project.   I have included all the classpath in it but you need to update it before you launch the application. Ensure you are also connected to the internet. Thanks
