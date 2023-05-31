@@ -22,8 +22,8 @@ To test the implemented endpoints using Postman, follow these steps:
 Start the application and make sure it is running successfully.
 Open Postman and create a new request by clicking on the "New" button.
 Set the request type to "GET" and enter the URL for the desired endpoint. For example:
-To retrieve employee earnings: http://localhost:8085/payroll/employees/{employeeId}/earnings
-To retrieve employee deductions: http://localhost:8085/payroll/employees/{employeeId}/deductions
+To retrieve employee earnings: http://localhost:8085/employee_payroll/employees/{employeeId}/earnings
+To retrieve employee deductions: http://localhost:8085/employee_payroll/employees/{employeeId}/deductions
 Replace {employeeId} with the actual ID of the employee you want to retrieve data for.
 Add any required request headers or parameters if applicable.
 Click the "Send" button to send the request to the server.
