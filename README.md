@@ -41,3 +41,27 @@ Ensure you have JRE(or Java 17 SDKs) installed on your laptop. You can use any o
 
 
 Note: A simple UML has been added to the project folde---->PayRollApplication.png
+
+
+
+
+
+Note: you must create a data base with the following features:
+
+spring.application.name= PayRoll System
+
+server.port= 8085
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/payrollDB
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.datasource.username=postgres
+spring.datasource.password=admin
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+
+
+but you can change the password and username to suit you. but ensure you test the connection and the appropriate driver is installed.
+
+THAT IS ALL.
