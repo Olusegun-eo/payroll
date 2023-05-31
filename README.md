@@ -44,9 +44,9 @@ Note: A simple UML has been added to the project folde---->PayRollApplication.pn
 
 
 
+CREATE DATABASE payrollDB;
 
-
-Note: you must create a data base with the following features:
+Note: you must create a database with the following features:
 
 spring.application.name= PayRoll System
 
